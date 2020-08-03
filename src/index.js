@@ -3,12 +3,13 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import { CounterProvider } from "./store/CounterProvider";
+// import { CounterProvider } from "./store/CounterProvider";
+import ContextProvider from "./store/providerComposer";
 ReactDOM.render(
   <React.StrictMode>
-    <CounterProvider>
+    <ContextProvider>
       <App />
-    </CounterProvider>
+    </ContextProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

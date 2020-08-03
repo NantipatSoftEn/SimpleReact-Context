@@ -7,3 +7,5 @@ Hook API ที่ช่วยในการจัดการกับ global 
 ## UseReducer คือ
 
 จะเป็นตัวช่วยในการจัดการ state ของเรา ซึ่งถ้าใครที่เคยเขียน redux มาก็จะคุ้นเคยกับเจ้าตัว reducer เป็นอย่างดี
+
+[READ more](https://medium.com/the-existing/react-how-to-use-global-state-with-react-hooks-very-easy-2137c5757937)
